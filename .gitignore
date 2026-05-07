@@ -1,0 +1,101 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend/.venv/
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+explainer.md
+
+# Sensitive environment and secret files
+.env.local
+.env.*.local
+*.env
+
+# Private keys, certificates and keystores
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+
+# Database files
+*.sqlite3
+*.sqlite
+*.db
+*.db-journal
+
+# Credentials and service accounts
+credentials*.json
+google-services.json
+
+# Editor and IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python caches and build artifacts
+.mypy_cache/
+.cache/
+pip-wheel-metadata/
+
+# Test and coverage
+coverage/
+htmlcov/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+out/
+
+# Backend specific
+backend/.env
+backend/__pycache__/
+backend/.pytest_cache/
+backend/venv/
+
+# Frontend specific
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Configuration files with potential secrets
+config.local.*
+settings.local.*
+*.local.json
+
+# Database backups and dumps
+*.sql.bak
+*.dump
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+desktop.ini
+
